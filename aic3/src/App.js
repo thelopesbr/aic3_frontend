@@ -1,4 +1,5 @@
 import React from "react";
+import Enrollment from "./components/Enrollment";
 import { Footer } from "./components/Footer";
 import Header from "./components/Header";
 import Login from "./components/Login";
@@ -10,7 +11,8 @@ export default function App() {
     <>
       <Header />
       {/* <Register /> */}
-      <Login />
+      {/* <Login /> */}
+      <Enrollment />
       <Footer />
       <GlobalStyle />
     </>
